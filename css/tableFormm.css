@@ -1,127 +1,137 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 90%;
-    color: #4e4e4e;
-    background-color: #f8f8f8;
-    
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 90%;
+  color: #4e4e4e;
+  background-color: #f8f8f8;
+  text-align: center;
 }
-h1{
-    font-weight: bolder;
-    font-size: 50px;
-   
+div container {
+  text-align: center;
 }
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
 }
-li{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 li {
-    list-style-image: url("../img/icon-plus.png");
-    line-height: 1.6em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+li {
+  list-style-image: url("../img/icon-plus.png");
+  line-height: 1.6em;
+  list-style-position: inside;
+  text-align: center;
+  margin-right: 50px;
 }
 
 table {
-    border-spacing: 0px;
+  border-spacing: 0px;
+  margin: 0 auto;
 }
 
-th, td {
-    padding: 5px 30px 5px 10px;
-    border-spacing: 0px;
-    font-size: 90%;
-    margin: 0px;
+th,
+td {
+  padding: 5px 30px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 0px;
 }
-        
-th, td {
-    text-align: left;
-    background-color: #f7d3db;
-    border-top: 1px solid #fae4e9;
-    border-bottom: 1px solid #ddc2c8;
-    border-right: 1px solid #ddc2c8;
+
+th,
+td {
+  text-align: center;
+  background-color: #f7d3db;
+  border-top: 1px solid #fae4e9;
+  border-bottom: 1px solid #ddc2c8;
+  border-right: 1px solid #ddc2c8;
 }
 
 tr.head th {
-    color: #fff;
-    background-color:#fb7d9a;
-    border-bottom: 3px solid #c30f39;
-    border-right: 1px solid #fa466f;
-    border-top: 1px solid #ff4d76;
-    text-align: center;
-    text-shadow: -1px -1px 1px #666666;
-    letter-spacing: 0.15em;
+  color: #fff;
+  background-color: #fb7d9a;
+  border-bottom: 3px solid #c30f39;
+  border-right: 1px solid #fa466f;
+  border-top: 1px solid #ff4d76;
+  text-align: center;
+  text-shadow: -1px -1px 1px #666666;
+  letter-spacing: 0.15em;
 }
 
 td {
-    text-shadow: 1px 1px 1px #ffffff;
+  text-shadow: 1px 1px 1px #ffffff;
 }
 
-tr.even td, tr.even th {
-    background-color: #f9e4e8;
+tr.even td,
+tr.even th {
+  background-color: #f9e4e8;
 }
 
 tr.head th:first-child {
-    -webkit-border-top-left-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
 }
 
 tr.head th:last-child {
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
 }
 
 fieldset {
-    width: 310px;
-    margin-top: 20px;
-    border: 1px solid #d6d6d6;
-    background-color: #ffffff;
-    line-height: 1.6em;
+  width: 310px;
+  margin-top: 20px;
+  border: 1px solid #d6d6d6;
+  background-color: #ffffff;
+  line-height: 1.6em;
+  margin: 0 auto;
 }
 
 legend {
-    font-style: italic;
-    color: #666666;
+  font-style: italic;
+  color: #666666;
 }
 
 input[type="text"] {
-    width: 120px;
-    border: 1px solid #d6d6d6;
-    padding: 2px;
-    outline: none;
+  width: 120px;
+  border: 1px solid #d6d6d6;
+  padding: 2px;
+  outline: none;
 }
 
 input[type="text"]:focus,
 input[type="text"]:hover {
-    background-color: #f7d3db;
-    border: 1px solid #ffeaef;
+  background-color: #f7d3db;
+  border: 1px solid #ffeaef;
 }
 
 input[type="submit"] {
-    border: 1px solid #950023;
-    background-color: #eb0c40;
-    color: #ffffff;
-    border-radius: 5px;
-    padding: 5px;
-    margin-top: 10px;
+  border: 1px solid #950023;
+  background-color: #eb0c40;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 input[type="submit"]:hover {
-    border: 1px solid #950023;
-    background-color: #fd416d;
-    color: #ffffff;
-    cursor: pointer;
+  border: 1px solid #950023;
+  background-color: #fd416d;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .title {
-    float: left;
-    width: 160px;
-    clear: left;
+  float: left;
+  width: 160px;
+  clear: left;
 }
 .submit {
-    width: 310px;
-    text-align: right;
+  width: 310px;
+  text-align: center;
+  margin: auto;
 }
