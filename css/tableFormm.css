@@ -2,7 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 90%;
   color: #4e4e4e;
-  background-color: #f8f8f8;
+  background-color: #e7dfdf;
   text-align: center;
 }
 div container {
@@ -92,6 +92,7 @@ fieldset {
 }
 
 legend {
+  font-weight: bolder;
   font-style: italic;
   color: #666666;
 }
