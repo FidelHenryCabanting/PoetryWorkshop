@@ -4,6 +4,7 @@ body {
   color: #4e4e4e;
   background-color: #e7dfdf;
   text-align: center;
+  background-image: url("../img/nk.jpg");
 }
 div container {
   text-align: center;
@@ -11,14 +12,17 @@ div container {
 h1 {
   font-weight: bolder;
   font-size: 50px;
+  color: #4e4e4e;
 }
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
+  color: #4e4e4e;
 }
 li {
   font-family: "Times New Roman", Times, serif;
   font-size: 17px;
+  color: #4e4e4e;
 }
 li {
   list-style-image: url("../img/icon-plus.png");
@@ -86,15 +90,17 @@ fieldset {
   width: 310px;
   margin-top: 20px;
   border: 1px solid #d6d6d6;
-  background-color: #ffffff;
+  background-color: #f7d3db;
   line-height: 1.6em;
   margin: 0 auto;
 }
 
 legend {
+  padding-top: 20px;
   font-weight: bolder;
   font-style: italic;
-  color: #666666;
+  color: #44424388;
+  
 }
 
 input[type="text"] {
