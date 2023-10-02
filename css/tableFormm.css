@@ -4,7 +4,8 @@ body {
   color: #4e4e4e;
   background-color: #e7dfdf;
   text-align: center;
-  background-image: url("../img/nk.jpg");
+  background-image: url("../img/nk.jpg");  
+  background-size: cover;
 }
 div container {
   text-align: center;
